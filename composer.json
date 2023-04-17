@@ -1,0 +1,16 @@
+{
+    "name": "http/route",
+    "description": "Api HTTP Route",
+    "type": "library",
+    "license": "apache2",
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "api.config.php"
+        ],
+        "psr-4": {
+            "ApiRoute\\": "src/"
+        }
+    },
+    "require": {}
+}
